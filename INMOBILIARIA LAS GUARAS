@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inmobiliaria Las Guaras</title>
+</head>
+<body>
+    <header style="background-color: #ff0000; color: white; padding: 20px; text-align: center;">
+        <h1>Inmobiliaria Las Guaras</h1>
+        <p>¡Realizamos tus sueños!</p>
+        </div>
+        <style>
+        .imagen-esquina {
+            position: absolute;
+            top: 10px;
+            right: 1600px;
+            width: 200px; /* Ajusta el tamaño según sea necesario */
+        }
+    </style>
+    <img src="Inmobiliaria-las-guaras.jpg" alt="Descripción de la imagen" class="imagen-esquina">   
+    </header>
+
+    <nav style="background-color: #007bff; color: white; padding: 10px; text-align: center;">
+        <a href="#inicio" style="color: white; text-decoration: none; padding: 10px 20px; display: inline-block;">Inicio</a>
+        <a href="#propiedades" style="color: white; text-decoration: none; padding: 10px 20px; display: inline-block;">Propiedades</a>
+        <a href="#loan-calculator" style="color: white; text-decoration: none; padding: 10px 20px; display: inline-block;">Calculadora de Préstamos</a>
+        <a href="#clientDataForm" style="color: white; text-decoration: none; padding: 10px 20px; display: inline-block;">Precalificación de Cliente</a>
+        <a href="#contacto" style="color: white; text-decoration: none; padding: 10px 20px; display: inline-block;">Contacto</a>
+    </nav>
+
+    <div class="container" id="inicio" style="max-width: 960px; margin: 20px auto; padding: 20px; background-color: white; border: 1px solid #ddd; border-radius: 5px;">
+        <h2>Bienvenido a Inmobiliaria Las Guaras</h2>
+        <p>Somos una inmobiliaria dedicada a ayudarte a encontrar la casa perfecta para ti y tu familia en Honduras. Explora nuestras opciones de propiedades y contáctanos para más información.</p>
+         <div class="mission-vision">
+            <h3>Nuestra Misión</h3>
+            <p>Ayudar a las familias y personas a encontrar el hogar o terreno ideal que se ajuste a sus necesidades y sueños en Honduras, brindando un servicio confiable y transparente.</p>
+
+            <h3>Nuestra Visión</h3>
+            <p>Ser la inmobiliaria líder y de confianza en Honduras, reconocida por nuestra excelencia en el servicio al cliente y por facilitar la realización de los proyectos de vida de nuestros clientes a través de la adquisición de bienes raíces.</p>
+        </div>
+    </div>
+
+    <div class="container" id="propiedades" style="max-width: 960px; margin: 20px auto; padding: 20px; background-color: white; border: 1px solid #ddd; border-radius: 5px;">
+        <h2>Nuestras Propiedades Destacadas</h2>
+         <div class="property-section">
+            <h2>Casas</h2>  
+        <div class="property" style="border: 1px solid #ddd; padding: 15px; margin-bottom: 20px; border-radius: 5px;">
+            <img src="casa1.jpeg" alt="Casa Ejemplo 1" style="max-width: 100%; height: auto; display: block; margin-bottom: 10px;">
+            <h3 style="margin-top: 0; color: #ff0000;">Casa en Residencial Toledo</h3>
+            <p style="margin-bottom: 5px;">Ubicación: San Pedro Sula, Cortés</p>
+            <p style="margin-bottom: 5px;">Habitaciones: 3</p>
+            <p style="margin-bottom: 5px;">Baños: 2</p>
+            <p style="margin-bottom: 5px;">Precio: 2,100,000</p>
+             <a href="casa-1.html" class="view-details-button" target="_blank">Ver Detalles</a>
+        </div>
+
+        <div class="property" style="border: 1px solid #ddd; padding: 15px; margin-bottom: 20px; border-radius: 5px;">
+            <img src="casa2.jpeg" alt="Casa Ejemplo 2" style="max-width: 100%; height: auto; display: block; margin-bottom: 10px;">
+            <h3 style="margin-top: 0; color: #ff0000;">Casa en La Colonia Luisiana</h3>
+            <p style="margin-bottom: 5px;">Ubicación: San Pedro Sula, Cortes</p>
+            <p style="margin-bottom: 5px;">Habitaciones: 3</p>
+            <p style="margin-bottom: 5px;">Baños: 2</p>
+            <p style="margin-bottom: 5px;">Precio: 1,650,000.00</p>
+            <a href="casa-2.html" class="view-details-button" target="_blank">Ver Detalles</a>        
+        </div>
+
+        <div class="property" style="border: 1px solid #ddd; padding: 15px; margin-bottom: 20px; border-radius: 5px;">
+            <img src="casa3.jpeg" alt="Casa Ejemplo 3" style="max-width: 100%; height: auto; display: block; margin-bottom: 10px;">
+            <h3 style="margin-top: 0; color: #ff0000;">Casa en Residencial Real del Puente III Etapa</h3>
+            <p style="margin-bottom: 5px;">Ubicación: Villanueva, Cortes</p>
+            <p style="margin-bottom: 5px;">Habitaciones: 3</p>
+            <p style="margin-bottom: 5px;">Baños: 1</p>
+            <p style="margin-bottom: 5px;">Precio: 1,800,000.00</p>
+            <a href="casa-3.html" class="view-details-button" target="_blank">Ver Detalles</a>        
+        </div>
+
+        <div class="property" style="border: 1px solid #ddd; padding: 15px; margin-bottom: 20px; border-radius: 5px;">
+            <img src="casa4.jpeg" alt="Casa Ejemplo 4" style="max-width: 100%; height: auto; display: block; margin-bottom: 10px;">
+            <h3 style="margin-top: 0; color: #ff0000;">Casa en Bosques de Jucutuma I Etapa</h3>
+            <p style="margin-bottom: 5px;">Ubicación: San Pedro Sula, Cortes</p>
+            <p style="margin-bottom: 5px;">Habitaciones: 2</p>
+            <p style="margin-bottom: 5px;">Baños: 1</p>
+            <p style="margin-bottom: 5px;">Precio: 1,300,000.00</p>
+            <a href="casa-4.html" class="view-details-button" target="_blank">Ver Detalles</a>        
+        </div>
+
+        <div class="property" style="border: 1px solid #ddd; padding: 15px; margin-bottom: 20px; border-radius: 5px;">
+            <img src="casa5.jpeg" alt="Casa Ejemplo 5" style="max-width: 100%; height: auto; display: block; margin-bottom: 10px;">
+            <h3 style="margin-top: 0; color: #ff0000;">Casa en Residencial Altos de Valencia</h3>
+            <p style="margin-bottom: 5px;">Ubicación: San Pedro Sula, Cortes</p>
+            <p style="margin-bottom: 5px;">Habitaciones: 3</p>
+            <p style="margin-bottom: 5px;">Baños: 2</p>
+            <p style="margin-bottom: 5px;">Precio: 3,300,000.00</p>
+            <a href="casa-5.html" class="view-details-button" target="_blank">Ver Detalles</a>        
+        </div>
+
+         <div class="property-section">
+            <h2>Terrenos</h2>
+            <div class="property">
+               <img src="terreno1.jpeg" alt="Descripción de la imagen" class="imagen-terreno">
+                <h3>Terreno en Residencial Los Naranjos</h3>
+                <p>Ubicación: San Pedro Sula, Cortes</p>
+                <p>Área: 613 vrs²</p>
+                <p>Ideal para: Construcción de vivienda</p>
+                <p>Precio: ¡Excelente oportunidad!</p>
+                <a href="terreno-1.html" class="view-details-button" target="_blank">Ver Detalles</a>
+            </div>
+
+            <div class="property">
+                <img src="terreno2.jpeg" alt="Terreno Ejemplo 2">
+                <h3>Terreno en Residencial Magdalena</h3>
+                <p>Ubicación: Puerto Cortes, Cortes</p>
+                <p>Área: 2943 vrs²</p>
+                <p>Ideal para: Vivienda, Negocios e inversión</p>
+                <p>Precio: 6,200,000.00</p>
+                <a href="terreno-2.html" class="view-details-button" target="_blank">Ver Detalles</a>
+            </div>
+
+            <div class="property">
+                <img src="terreno3.jpeg" alt="Terreno Ejemplo 3">
+                <h3>Terreno en Residencial Roca de Arios</h3>
+                <p>Ubicación: Choloma, Cortes</p>
+                <p>Área: 863 vrs²</p>
+                <p>Ideal para: Vivienda e inversión</p>
+                <p>Precio: ¡Contáctanos para más información!</p>
+                <a href="terreno-3.html" class="view-details-button" target="_blank">Ver Detalles</a>
+            </div>
+
+            <div class="property">
+                <img src="terreno4.jpeg" alt="Terreno Ejemplo 4">
+                <h3>Terreno en Residencial Montebello</h3>
+                <p>Ubicación: San Pedro Sula, Cortes</p>
+                <p>Área: 193 vrs²</p>
+                <p>Ideal para: Vivienda e inversión</p>
+                <p>Precio: 300,000.00</p>
+                <a href="terreno-4.html" class="view-details-button" target="_blank">Ver Detalles</a>
+            </div>
+
+            <div class="property">
+                <img src="terreno5.jpeg" alt="Terreno Ejemplo 5">
+                <h3>Terreno en Residencial Los Mangos</h3>
+                <p>Ubicación: San Pedro Sula, Cortes</p>
+                <p>Área: 400 vrs²</p>
+                <p>Ideal para: Vivienda e inversión</p>
+                <p>Precio: $106,100.00</p>
+                <a href="terreno-5.html" class="view-details-button" target="_blank">Ver Detalles</a>
+            </div>
+        </div>
+         <h2>Calculadora de Prestamos</h2>
+        <div class="container" id="loan-calculator">
+    <h2>Calcula tu Cuota de Préstamo</h2>
+    <p>Ingresa los detalles del préstamo para estimar tu cuota mensual.</p>
+    <div>
+        <label for="loanAmount">Monto a Financiar (L.):</label>
+        <input type="number" id="loanAmount" name="loanAmount" min="0">
+    </div>
+    <div>
+        <label for="loanTermYears">Plazo (en años):</label>
+        <input type="number" id="loanTermYears" name="loanTermYears" min="1">
+    </div>
+    <div>
+        <label for="interestRate">Tasa de Interés Anual (%):</label>
+        <input type="number" id="interestRate" name="interestRate" min="0" step="0.01">
+    </div>
+    <button onclick="calculateLoan()">Calcular Cuota</button>
+    <div id="loanResult" style="margin-top: 15px;">
+        </div>
+</div>
+
+<div class="container" id="client-info-form" style="margin-top: 30px; padding: 20px; border: 1px solid #ddd; border-radius: 5px; background-color: #f9f9f9; text-align: left;">
+    <h2>Precalificacion del Cliente (Opcional)</h2>
+    <p>Si deseas que te contactemos con una cotización más precisa, por favor llena este formulario.</p>
+    <form id="clientDataForm" action="mailto:inmobiliarialasguaras@gmail.com" method="post" enctype="text/plain">
+        <div>
+            <label for="fullName">Nombre Completo:</label>
+            <input type="text" id="fullName" name="Nombre Completo">
+        </div>
+        <div>
+            <label for="identityNumber">Número de Identidad:</label>
+            <input type="text" id="identityNumber" name="Número de Identidad">
+        </div>
+        <div>
+            <label for="phoneNumber">Número de Teléfono:</label>
+            <input type="tel" id="phoneNumber" name="Número de Teléfono">
+        </div>
+        <div>
+            <label for="monthlySalary">Salario Mensual (L.):</label>
+            <input type="number" id="monthlySalary" name="Salario Mensual" min="0">
+        </div>
+        <div>
+            <label for="employmentTime">Tiempo Laborando:</label>
+            <input type="text" id="employmentTime" name="Tiempo Laborando" placeholder="Ej: 1 año, 6 meses">
+        </div>
+        <div>
+            <label for="companyName">Empresa donde Trabaja (Opcional):</label>
+            <input type="text" id="companyName" name="Empresa">
+        </div>
+        <button type="submit">Enviar Información por Correo</button>
+    </form>
+</div>
+
+<script>
+function calculateLoan() {
+    const loanAmount = parseFloat(document.getElementById("loanAmount").value);
+    const loanTermYears = parseInt(document.getElementById("loanTermYears").value);
+    const interestRate = parseFloat(document.getElementById("interestRate").value) / 100 / 12; // Convert annual % to monthly decimal
+    const loanTermMonths = loanTermYears * 12; // Convert years to months
+
+    if (isNaN(loanAmount) || isNaN(loanTermYears) || isNaN(interestRate)) {
+        document.getElementById("loanResult").textContent = "Por favor, ingresa valores válidos.";
+        return;
+    }
+
+    if (loanAmount <= 0 || loanTermYears <= 0 || interestRate < 0) {
+        document.getElementById("loanResult").textContent = "Por favor, ingresa valores mayores que cero.";
+        return;
+    }
+
+    const monthlyPayment = (loanAmount * interestRate) / (1 - Math.pow(1 + interestRate, -loanTermMonths));
+
+    if (isNaN(monthlyPayment) || !isFinite(monthlyPayment)) {
+        document.getElementById("loanResult").textContent = "No se pudo calcular la cuota. Verifica los valores ingresados.";
+    } else {
+        document.getElementById("loanResult").textContent = `Cuota Mensual Estimada: L. ${monthlyPayment.toFixed(2)}`;
+    }
+}
+</script>
+    <div class="container" id="contacto" style="max-width: 960px; margin: 20px auto; padding: 20px; background-color: white; border: 1px solid #ddd; border-radius: 5px; text-align: center;">
+        <h2>Contáctanos</h2>
+        <div class="contact-info" style="margin-top: 30px;">
+            <p style="margin-bottom: 10px;">¡Estamos listos para ayudarte a encontrar tu nuevo hogar!</p>
+            <p style="margin-bottom: 10px;"><a href="https://www.facebook.com/imobilarialas.guaras/" class="facebook-button" target="_blank">Nuestro Facebook</a>
+            <a href="https://www.tiktok.com/@inmobiliarialasguarashn" class="tiktok-button" target="_blank">Síguenos en TikTok</a>  
+            <a href="mailto:inmobiliarialasguaras@gmail.com" class="email-button">Envíanos un Correo</a><br>  
+            <a href="https://wa.me/50494308708" class="whatsapp-button" target="_blank">WhatsApp 1 </a>
+            <a href="https://wa.me/50496812805" class="whatsapp-button" target="_blank">WhatsApp 2</a>
+            <p style="margin-bottom: 10px;">Teléfono: +504 9430-8708 <br> ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ +504 9681-2805</p>
+            <p style="margin-bottom: 10px;">
+            <img src="Mascota-Guaras.png" alt="Mascota">    
+        </div>
+    </div>
+    <footer style="background-color: #ff0000; color: white; text-align: center; padding: 10px; position: static; bottom: 0; width: 100%;">
+        <p>&copy; 2025 Inmobiliaria Las Guaras</p>
+    </footer>
+
+    <script>
+        // Función para hacer que la navegación por los enlaces internos sea suave
+        document.querySelectorAll('nav a').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Funcionalidad para el botón "Ver Detalles" (modal)
+        const modal = document.getElementById("propertyModal");
+        const viewDetailsButtons = document.querySelectorAll(".view-details-btn");
+        const closeButton = document.querySelector(".close-button");
+        const propertyDetailsContainer = document.querySelector(".property-details");
+
+        viewDetailsButtons.forEach(button => {
+            button.addEventListener('click', function() {
+                const propertyId = this.getAttribute('data-property-id');
+                // Aquí podrías tener más información de las propiedades basada en el ID
+                let details = "";
+                if (propertyId === "1") {
+                    details = `
+                        <h3>Casa Moderna con Jardín</h3>
+                        <p>Ubicación: San Pedro Sula, Cortés</p>
+                        <p>Habitaciones: 3</p>
+                        <p>Baños: 2</p>
+                        <p>Características adicionales: Amplio jardín, piscina pequeña, seguridad 24/7.</p>
+                        <p>Precio: $150,000</p>
+                        <p>Para más información, contáctanos.</p>
+                    `;
+                } else if (propertyId === "2") {
+                    details = `
+                        <h3>Amplia Casa Familiar</h3>
+                        <p>Ubicación: Tegucigalpa, Francisco Morazán</p>
+                        <p>Habitaciones: 4</p>
+                        <p>Baños: 3</p>
+                        <p>Características adicionales: Garaje para dos carros, balcón con vistas, área de juegos.</p>
+                        <p>Precio: $220,000</p>
+                        <p>¡Ideal para familias grandes!</p>
+                    `;
+                }
+                propertyDetailsContainer.innerHTML = details;
+                modal.style.display = "block";
+            });
+        });
+
+        closeButton.addEventListener('click', function() {
+            modal.style.display = "none";
+        });
+
+        window.addEventListener('click', function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        });
+    </script>
+</body>
+</html>
