@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalles de Terreno Residencial con Vista</title>
+    <style>
+        body { font-family: sans-serif; margin: 20px; background-color: #f4f4f4; color: #333; }
+        .container { max-width: 800px; margin: 0 auto; background-color: white; padding: 20px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); border-radius: 5px; }
+        img { max-width: 100%; height: auto; display: block; margin-bottom: 15px; border-radius: 5px; }
+        h1, h2 { color: #ff0000; }
+        p { line-height: 1.6; margin-bottom: 10px; }
+        .back-button { display: inline-block; background-color: #007bff; color: white; padding: 10px 15px; text-decoration: none; border-radius: 5px; margin-top: 20px; }
+        .back-button:hover { background-color: #333; }
+        .like-comment { margin-top: 20px; border-top: 1px solid #eee; padding-top: 15px; }
+        .like-button { background-color: #f0f0f0; color: #333; border: 1px solid #ccc; padding: 8px 15px; border-radius: 5px; cursor: pointer; margin-right: 10px; }
+        .like-button.liked { background-color: #007bff; color: white; border-color: #007bff; }
+        .comment-section h3 { color: #333; margin-top: 15px; }
+        .comment-box textarea { width: 100%; padding: 10px; margin-bottom: 10px; border: 1px solid #ccc; border-radius: 5px; box-sizing: border-box; resize: vertical; }
+        .comment-box button { background-color: #007bff; color: white; border: none; padding: 10px 15px; border-radius: 5px; cursor: pointer; font-size: 16px; }
+        .comment-box button:hover { background-color: #0056b3; }
+        .comments-list { margin-top: 15px; }
+        .comment { border: 1px solid #eee; padding: 10px; margin-bottom: 10px; border-radius: 5px; background-color: #f9f9f9; }
+        .comment p { margin-bottom: 5px; }
+        .comment .author { font-weight: bold; color: #555; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Terreno en Residencial Los Naranjos</h1>
+        <style>
+        .imagen-esquina {
+            position: absolute;
+            top: 10px;
+            right: 1200px;
+            width: 200px; /* Ajusta el tamaño según sea necesario */
+        }
+       </style>
+       <img src="terreno1-detalle1.jpeg" alt="Descripción de la imagen" class="imagen-terreno">
+       <img src="terreno1-detalle2.jpeg" alt="Descripción de la imagen" class="imagen-terreno">
+        <h2>Ubicación</h2>
+        <p>San Pedro Sula, Cortes</p>
+        <h2>Área</h2>
+        <p>613 varas cuadradas</p>
+        <h2>Ideal para</h2>
+        <p>Construir la casa de tus sueños con una linda vista.</p>
+        <h2>Descripción</h2>
+        <p>Este terreno está ubicado en una zona tranquila y segura, perfecto para familias. Imagina construir tu hogar aquí y disfrutar de la seguridad 24/7.</p>
+        <h2>Precio</h2>
+        <p>¡Una excelente oportunidad! Contáctanos para más detalles sobre el precio.</p>
+         <div class="like-comment">
+            <button class="like-button">Me Gusta</button>
+            <div class="comment-section">
+                <h3>Deja un Comentario</h3>
+                <div class="comment-box">
+                    <textarea placeholder="Escribe tu comentario aquí..."></textarea>
+                    <button>Enviar Comentario</button>
+                </div>
+                <div class="comments-list">
+                    <h3>Comentarios</h3>
+                    <div class="comment">
+                        <p class="author">Usuario Ejemplo:</p>
+                        <p>¡Qué bonito Terreno!.</p>
+                    </div>
+        <script>
+        const likeButton = document.querySelector('.like-button');
+        let liked = false;
+
+        likeButton.addEventListener('click', function() {
+            liked = !liked;
+            if (liked) {
+                likeButton.textContent = 'Me Gusta (👍)';
+                likeButton.classList.add('liked');
+            } else {
+                likeButton.textContent = 'Me Gusta';
+                likeButton.classList.remove('liked');
+            }
+        });
+
+        const commentButton = document.querySelector('.comment-box button');
+        const commentTextarea = document.querySelector('.comment-box textarea');
+        const commentsList = document.querySelector('.comments-list');
+
+        commentButton.addEventListener('click', function() {
+            const commentText = commentTextarea.value.trim();
+            if (commentText !== '') {
+                const newComment = document.createElement('div');
+                newComment.classList.add('comment');
+                newComment.innerHTML = `
+                    <p class="author">Usuario Anónimo:</p>
+                    <p>${commentText}</p>
+                `;
+                commentsList.appendChild(newComment);
+                commentTextarea.value = ''; // Limpiar el textarea
+            } else {
+                alert('Por favor, escribe un comentario antes de enviarlo.');
+            }
+        });
+    </script>
+        <img src="Mascota-Guaras.png" alt="Mascota"> 
+        <a href="INMOBILIARIA LAS GUARAS.html" class="back-button">Volver a la página principal</a>
+    </div>
+</body>
+</html>
